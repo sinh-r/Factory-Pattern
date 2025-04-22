@@ -7,41 +7,20 @@ using System.Threading.Tasks;
 
 namespace NationalParkSimulator.Models
 {
-    public class Lion
+    public class Lion(int height, int weight, Gender gender, int numberOfLegs, string speciality)
     {
-        public int Height { get; }
-        public int Weight { get; }
-        public Gender Gender { get; }
-        public int NumberOfLegs { get; }
-        public string Speciality { get; }
+        public int Height { get; } = height;
+        public int Weight { get; } = weight;
+        public Gender Gender { get; } = gender;
+        public int NumberOfLegs { get; } = numberOfLegs;
+        public string Speciality { get; } = speciality;
 
-        public Lion(int height, int weight, Gender gender, int numberOfLegs, string speciality)
-        {
-            Height = height;
-            Weight = weight;
-            Gender = gender;
-            NumberOfLegs = numberOfLegs;
-            Speciality = speciality;
-        }
+        public void Roar() => Console.WriteLine("The lion roars!");
 
-        public void Roar()
-        {
-            Console.WriteLine("The lion roars!");
-        }
+        public void Hunt() => Console.WriteLine("The lion is hunting.");
 
-        public void Hunt()
-        {
-            Console.WriteLine("The lion is hunting.");
-        }
+        public void Eat() => Console.WriteLine("The lion is eating.");
 
-        public void Eat()
-        {
-            Console.WriteLine("The lion is eating.");
-        }
-
-        public void Run()
-        {
-            Console.WriteLine("The lion is running.");
-        }
+        public void Run() => Console.WriteLine("The lion is running.");
     }
 }
