@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Without Factory Pattern/NationalParkSimulator/.vs/NationalParkSimulator
+/Without Factory Pattern/NationalParkSimulator/NationalParkSimulator.Console/bin/Debug/net8.0
+/Without Factory Pattern/NationalParkSimulator/NationalParkSimulator.Console/obj
+/Without Factory Pattern/NationalParkSimulator/NationalParkSimulator.Models/bin/Debug/net8.0
+/Without Factory Pattern/NationalParkSimulator/NationalParkSimulator.Models/obj
