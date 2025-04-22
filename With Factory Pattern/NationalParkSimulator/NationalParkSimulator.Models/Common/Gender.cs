@@ -1,4 +1,4 @@
-﻿namespace NationalParkSimulator.Models
+﻿namespace NationalParkSimulator.Models.Common
 {
     public enum Gender
     {

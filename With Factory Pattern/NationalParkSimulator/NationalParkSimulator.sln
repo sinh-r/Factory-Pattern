@@ -5,6 +5,8 @@ VisualStudioVersion = 17.13.35919.96 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NationalParkSimulator.Console", "NationalParkSimulator.Console\NationalParkSimulator.Console.csproj", "{012A7DB4-9821-4136-A9BB-03E61995BE82}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NationalParkSimulator.Models", "NationalParkSimulator.Models\NationalParkSimulator.Models.csproj", "{BB1DEC48-2274-4116-B746-FA66F3BFCE23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{012A7DB4-9821-4136-A9BB-03E61995BE82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{012A7DB4-9821-4136-A9BB-03E61995BE82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{012A7DB4-9821-4136-A9BB-03E61995BE82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB1DEC48-2274-4116-B746-FA66F3BFCE23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB1DEC48-2274-4116-B746-FA66F3BFCE23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB1DEC48-2274-4116-B746-FA66F3BFCE23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB1DEC48-2274-4116-B746-FA66F3BFCE23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
