@@ -7,14 +7,14 @@ namespace NationalParkSimulator.Console
         static void Main(string[] args)
         {
             // Instantiate a Lion
-            Lion lion = new(130, 220, Gender.FEMALE, 4, "King of the Jungle");
+            Lion lion = new(130, 220, Gender.MALE, 4, "King of the Jungle");
             lion.Roar();
             lion.Hunt();
             lion.Eat();
             lion.Run();
 
             // Instantiate a Tiger
-            Tiger tiger = new(120, 200, Gender.MALE, 4, "Stealthy Hunter");
+            Tiger tiger = new(120, 200, Gender.FEMALE, 4, "Stealthy Hunter");
             tiger.Roar();
             tiger.Hunt();
             tiger.Eat();
